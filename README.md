@@ -31,5 +31,27 @@ The transformation phase can be accomplished with Python and Pandas, pure SQL, o
 Finally, after the data is transformed into a consistent structure, it's loaded into the data target. The data target can be a relational database like PostgreSQL, a non-relational database like MongoDB that stores individual documents, or a data warehouse like Amazon Redshift that optimizes performance specifically for analytics.
 
 ### Technologies Used
+- Jupyter Notebook
+- PgAdmin 4
+- Visual Studio Code Editor
+- ZSH terminal
+- Github
+- Google Chrome
+
+Dependencies
+
+- json
+- pandas
+- numpy
+- re
+- sqlalchemy
+- time
+- psycopg2
 
 ### Project Summary
+This project was a bit challenging in the sense of the whole ETL process. There were many errors that came about in the challenge section but eventually overcame them with some
+GoogleFu and trial and error. My results did not match the expected results row count but perhaps I cleaned the data too much.
+
+![Movies Query](images/movies_query.png)
+![Ratings Query](images/ratings_query.png)
+![Time Elapsed](images/time_elapsed_ipynb.png)
